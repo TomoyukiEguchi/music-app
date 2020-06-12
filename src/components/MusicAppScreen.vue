@@ -194,7 +194,8 @@ export default {
   width: 250px;
   min-height: 510px;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.2);
+  mask-image: url('../assets/silhouette.png');
   border-radius: 25px;
 }
 .phoneScreen {
