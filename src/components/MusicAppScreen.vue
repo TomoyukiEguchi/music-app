@@ -199,6 +199,7 @@ export default {
   width: 250px;
   min-height: 510px;
   overflow: hidden;
+  mask-image: url('../assets/silhouette.png');
   border-radius: 25px;
 }
 .screen {
