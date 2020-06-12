@@ -202,6 +202,9 @@ export default {
   mask-image: url('../assets/silhouette.png');
   border-radius: 25px;
 }
+img {
+  clip-path: url('../assets/silhouette.png');
+}
 .screen {
   position: relative;
   width: 250px;
