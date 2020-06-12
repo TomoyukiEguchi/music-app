@@ -189,6 +189,14 @@ export default {
   background-position: left;
   height: calc(100% + 3px);
 }
+.screen {
+  position: relative;
+  width: 250px;
+  min-height: 510px;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 25px;
+}
 .phoneScreen {
   background-size: cover;
   background-position: center;
@@ -200,18 +208,8 @@ export default {
   min-height: 510px;
   overflow: hidden;
   mask-image: url('../assets/silhouette.png');
-  border-radius: 25px;
-}
-img {
+  /*clip: rect(0px, 250px, 510px, 0px);*/
   clip-path: url('../assets/silhouette.png');
-}
-.screen {
-  position: relative;
-  width: 250px;
-  min-height: 510px;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.5);
-  overflow: hidden;
   border-radius: 25px;
 }
 .menu {
