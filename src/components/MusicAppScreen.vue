@@ -206,10 +206,10 @@ export default {
   filter: blur(20px);
   width: 250px;
   min-height: 510px;
-  overflow: hidden;
-  mask-image: url('../assets/silhouette.png');
-  /*clip: rect(0px, 250px, 510px, 0px);*/
   border-radius: 25px;
+  mask-image: url('../assets/silhouette.png');
+  overflow: hidden;
+  /*clip: rect(0px, 250px, 510px, 0px);*/
 }
 .menu {
   padding: 21px;
