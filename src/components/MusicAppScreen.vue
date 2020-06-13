@@ -1,7 +1,7 @@
 <template>
   <section class='player'>
-    <div class='screen'>
-      <div class='phoneScreen' :style="{ backgroundImage: `url(${currentTrack.imgLink})` }"></div>
+    <div class='screen' :style="{ backgroundImage: `url(${currentTrack.imgLink})` }">
+      <div class='phoneScreen'></div>
       <div class='menu'><v-fa icon='chevron-left' /><v-fa icon='ellipsis-v' /></div>
       <transition-group
         name='carousel'
@@ -190,6 +190,8 @@ export default {
   height: calc(100% + 3px);
 }
 .screen {
+  background-size: cover;
+  background-position: center;
   position: relative;
   width: 250px;
   min-height: 510px;
@@ -198,8 +200,6 @@ export default {
   border-radius: 25px;
 }
 .phoneScreen {
-  background-size: cover;
-  background-position: center;
   display: block;
   position: absolute; 
   backdrop-filter: blur(8px);
@@ -208,6 +208,7 @@ export default {
   min-height: 510px;
   border-radius: 25px;
   mask-image: url('../assets/silhouette.png');
+  height: calc(100% + 1px);
   overflow: hidden;
   /*clip: rect(0px, 250px, 510px, 0px);*/
 }
