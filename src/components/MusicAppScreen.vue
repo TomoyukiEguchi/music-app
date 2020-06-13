@@ -53,7 +53,7 @@ export default {
       currentTrackIndex: 0,
       slides: [
         {
-          imgLink: require('../assets/Galaxy_2_Galaxy.jpg'),
+          imgLink: require('../assets/Cyne_TimeBeing.jpg'),
           title: 'Hi-Tech Jazz',
           artist: 'Galaxy 2 Galaxy',
           src: require('../assets/songs/Hi-Tech_Jazz.mp3'),
