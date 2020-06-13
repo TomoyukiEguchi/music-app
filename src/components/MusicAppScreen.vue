@@ -53,7 +53,7 @@ export default {
       currentTrackIndex: 0,
       slides: [
         {
-          imgLink: require('../assets/Cyne_TimeBeing.jpg'),
+          imgLink: require('../assets/Galaxy_2_Galaxy.jpg'),
           title: 'Hi-Tech Jazz',
           artist: 'Galaxy 2 Galaxy',
           src: require('../assets/songs/Hi-Tech_Jazz.mp3'),
@@ -187,7 +187,7 @@ export default {
   justify-content: center;
   align-items: center;
   background-position: left;
-  height: calc(100% + 3px);
+  height: calc(100% + 0.5px);
 }
 .screen {
   background-size: cover;
@@ -208,7 +208,6 @@ export default {
   min-height: 510px;
   border-radius: 25px;
   /*mask-image: url('../assets/silhouette.png');*/
-  height: calc(100% + 1px);
   overflow: hidden;
   /*clip: rect(0px, 250px, 510px, 0px);*/
 }
