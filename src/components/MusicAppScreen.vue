@@ -207,7 +207,7 @@ export default {
   width: 250px;
   min-height: 510px;
   border-radius: 25px;
-  mask-image: url('../assets/silhouette.png');
+  /*mask-image: url('../assets/silhouette.png');*/
   height: calc(100% + 1px);
   overflow: hidden;
   /*clip: rect(0px, 250px, 510px, 0px);*/
